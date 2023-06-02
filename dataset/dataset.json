@@ -336,5 +336,3 @@ data = {
         }
     ]
 }
-with open("dataset.json", "w") as file:
-    json.dump(data, file)
