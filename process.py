@@ -27,7 +27,7 @@ def preparation():
     global lemmatizer, tokenizer, le, model
     tokenizer = pickle.load(open('model/tokenizers.pkl', 'rb'))
     le = pickle.load(open('model/le.pkl', 'rb'))
-    model = keras.models.load_model('chatbot_model.h5')
+    model = keras.models.load_model('model/chatbot_model.h5')
     lemmatizer = WordNetLemmatizer()
     nltk.download('punkt', quiet=True)
     nltk.download('wordnet', quiet=True)
