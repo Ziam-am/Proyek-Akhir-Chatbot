@@ -8,7 +8,7 @@ from flask_ngrok import run_with_ngrok
 
 #Start Chatbot
 app = Flask(__name__)
-app.static_folder = 'static'
+
 
 #routing halaman utama
 @app.route("/")
